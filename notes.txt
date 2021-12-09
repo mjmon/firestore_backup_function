@@ -1,0 +1,6 @@
+//install dependencies
+npm i firebase-admin@latest firebase-functions@latest
+
+
+//Importing a backup to your firestore, prefix is the name of the backup folder
+gcloud firestore import gs://<bucket-name>/<prefix>
